@@ -7,12 +7,12 @@ public class InternalButton extends Button {
 	}
 
 	private int floorNumber;
-	
+
 	public int pushButton(int floorNumber) {
 		pushed = true;
 		this.floorNumber = floorNumber;
 		return this.floorNumber;
-		
+
 	}
 
 	/**
@@ -21,6 +21,5 @@ public class InternalButton extends Button {
 	public int getFloorNumber() {
 		return floorNumber;
 	}
-	
 
 }

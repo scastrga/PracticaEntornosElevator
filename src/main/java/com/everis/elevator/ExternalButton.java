@@ -6,6 +6,5 @@ public class ExternalButton extends Button {
 		super(lighted, pushed);
 		// TODO Auto-generated constructor stub
 	}
-	
-	
+
 }

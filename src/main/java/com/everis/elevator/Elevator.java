@@ -7,6 +7,7 @@ public class Elevator {
 
 	/**
 	 * Move the elevator to selected Floor
+	 * 
 	 * @param selectFloor
 	 */
 	public void Move(int selectFloor) {

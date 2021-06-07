@@ -25,7 +25,7 @@ public abstract class Button {
 	public void push() {
 		pushed = true;
 	}
-	
+
 	public void unPush() {
 		pushed = false;
 	}
