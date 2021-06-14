@@ -1,8 +1,10 @@
 package com.everis.elevator;
 
+import java.util.List;
+
 public abstract class Button {
-	protected ExternalButton eButton;
-	protected InternalButton iButton;
+	protected List<ExternalButton> eButton;
+	protected List<InternalButton> iButton;
 	protected boolean lighted;
 	protected boolean pushed;
 
